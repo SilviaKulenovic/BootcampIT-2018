@@ -100,20 +100,20 @@ public:
 			cin >> novac;
 			stanje_racuna = stanje_racuna + novac;
 		}
-		void izracun_i_ispis_kamate() {
+		/*void izracun_i_ispis_kamate() {
 			float kamata;
 			cout << "Unesite godišnju kamatnu stopu" << endl;
-			cin >> kamata  ;
+			cin >> kamata;
 			int broj_mjeseci;
 			cout << "Unesite broj mjeseci na koji zelite orociti novac" << endl;
 			cin >> broj_mjeseci;
 			float stednja;
-			stednja=(stanje_racuna * (kamata / 100))/12;
-		    mjesecna_stednja=stednja*broj_mjeseci;
-			
+			stednja = (stanje_racuna * (kamata / 100)) / 12;
+			mjesecna_stednja = stednja * broj_mjeseci;
+
 			cout << "Vasa stednja nakon " << broj_mjeseci << "iznosi " << mjesecna_stednja << endl;
 
-		}
+		}*/
 		void ispis_stanja() {
 			cout << "Stanje racuna je:" << stanje_racuna << endl;
 		}
@@ -180,7 +180,7 @@ int main()
 		do {
 			cout << "1 Stavljanje novaca na racun" << endl;
 			cout << "2 Podizanje novaca" << endl;
-			cout << "3 Izraèun kamate" << endl;
+			//cout << "3 Izraèun kamate" << endl;
 			cout << "4 Izlaz" << endl;
 
 			cout << "Unesite vas odabir" << endl;
@@ -192,7 +192,7 @@ int main()
 			case 2: s1.podizanje();
 				s1.ispis_stanja();
 				break;
-			case 3: s1.izracun_i_ispis_kamate();
+			//case 3: s1.izracun_i_ispis_kamate();
 				break;
 			case 4:
 				break;
@@ -200,8 +200,8 @@ int main()
 		} while (izbor != 4);
 
 	}
-	
-}
+
+	}
 
 
 
