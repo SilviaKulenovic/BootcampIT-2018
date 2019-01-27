@@ -7,19 +7,21 @@
   p {font-size: 16px;}
   .margin {margin-bottom: 45px;}
   .bg-1 { 
-    background-image: url("plane.jpg"); /* Green */
+    background-image: url("plane.jpg"); 
     color: #ffffff;
   }
   .bg-2 { 
     background-color: #474e5d; /* Dark Blue */
     color: #ffffff;
   }
-  .bg-3 { 
-    background-color: #ffffff; /* White */
+   
+  /*.bg-3 { 
+    background-color: #ffffff; 
     color: #555555;
-  }
+  } /* White */
+
   .bg-4 { 
-    background-color: #2f2f2f; /* Black Gray */
+    background-color:  black; /*  Black Gray */
     color: #fff;
   }
   .container-fluid {
