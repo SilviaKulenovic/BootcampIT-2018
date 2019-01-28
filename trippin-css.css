@@ -1,0 +1,63 @@
+  body {
+    font: 20px Montserrat, sans-serif;
+    line-height: 1.8;
+    color: #f5f6f7;
+  }
+  p {font-size: 16px;}
+  .margin {margin-bottom: 90px;}
+
+  
+  .bg-1 { 
+    background-image: url("hd3.jpg"); 
+    background-size: cover; /* Green */
+    background-position: center;
+    color: #ffffff;
+  }
+  .bg-2 { 
+    background-color: #474e5d; /* Dark Blue */
+    color: #ffffff;
+  }
+  /*
+  .bg-3 { 
+    background-color: #ffffff; 
+    color: #555555;
+  }/* White */
+
+
+  .bg-4 { 
+    background-color: black; /* Black Gray */
+    color: #fff;
+  }
+  .container-fluid {
+    padding-top: 40px;
+    padding-bottom: 40px;
+
+  }
+
+ .bg-5{
+    background-color: red;
+  }
+
+  .bg-6{
+    background-color: red;
+  }
+  .navbar {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border: 0;
+    border-radius: 0;
+    margin-bottom: 0;
+    font-size: 12px;
+    letter-spacing: 5px;
+  }
+  .navbar-nav  li a:hover {
+    color: #1abc9c !important;
+  }
+
+  .col-border{
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: orange;
+    font: 20px Montserrat, sans-serif;
+
+  }
