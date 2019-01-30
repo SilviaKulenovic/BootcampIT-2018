@@ -4,13 +4,20 @@
 
   <link rel="stylesheet" type="text/css" href="trippin-css.css">
   <!-- Theme Made By www.w3schools.com - No Copyright -->
-  <title>User</title>
+  <title>Trips</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
   <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+
+
+
+ 
+
+
 
 </head>
 <body>
@@ -44,35 +51,57 @@
   <div class="row ">
     <h3 class="margin">Who Am I?</h3>
       <div class="col-lg-4 "> 
-         <h2 class="user">Create new User</h2>
+         <h2 class="user">Create new Trip</h2>
         <img src="logo.jpg" class="img-responsive img-circle " style="display:inline" alt="logo" width="250" height="250">
 
       </div>
+    
       <div class="col-lg-4  ">
-  
-         
+
+            <div class="form-group">
+              <label for="inputdefault">Destination:</label>
+              <input   class="form-control" id="inputdefault" placeholder="Add Destination" type="text">
+            </div>
+
+             <div class="form-group">
+              <label for="inputdefault">Start date:</label>
+              <input   class="form-control" id="inputdefault" placeholder="DD/MM/YYYY" type="text">
+             </div>
+
+             <div class="form-group">
+              <label for="inputdefault">End date:</label>
+              <input   class="form-control" id="inputdefault" placeholder="DD/MM/YYYY" type="text">
+             </div>
+            
+
            <div class="form-group">
-              <label for="usr">First Name:</label>
-              <input type="text" class="form-control" id="usr" placeholder="Enter First name" name="firstname">
+              <label for="inputdefault">Transport:</label>
+              <input   class="form-control" id="inputdefault" placeholder="Add Transport" type="text">
            </div>
+
            <div class="form-group">
-              <label for="usr">Last Name:</label>
-              <input type="text" class="form-control" id="usr" placeholder="Enter Last name" name="lastname">
+              <label for="inputdefault">Costs  </label>
+              <input   class="form-control" id="inputdefault" placeholder="Add costs" type="text">
            </div>
+
            <div class="form-group">
-              <label for="email">Email:</label>
-              <input type="email" class="form-control" id="email" placeholder="Enter email" name="email">
+              <label for="inputdefault">Number of people</label>
+              <input   class="form-control" id="inputdefault" placeholder="Enter number of people" type="text">
            </div>
+            
+
            <div class="form-group">
-              <label for="usr">Adress:</label>
-              <input type="text" class="form-control" id="usr" placeholder="Enter your Adress" name="adress">
+              <label for="comment">Comment:</label>
+              <textarea class="form-control" rows="5" id="comment" placeholder="Enter comment"  ></textarea>
            </div>
-           
-           <div>
            <button type="submit" class="button">Submit</button>
           </div>
         </form>
-      <div class="col-lg-4 "></div> 
+      <div class="col-lg-4 ">
+        
+          
+        </dir>
+      </div> 
     </div>  
   </div>
 </div>
@@ -98,6 +127,10 @@
 <footer class="container-fluid bg-4 text-center">
   <p> Made By Pokemoni <a href="https://www.w3schools.com">    www.pokemoni.com</a></p> 
 </footer>
+ 
+
+ 
+
 
 </body>
 </html>
